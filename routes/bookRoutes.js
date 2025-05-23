@@ -6,11 +6,11 @@ const { addReview } = require('../controls/reviewControl');
 
 const router = express.Router();
 
+// book operation routes
 router.post('/addbooks', auth, addBook);
 router.get('/getbooks', getBook);
 router.post('/books/:id/reviews', auth, addReview);
 router.get('/books/:id', getBookById);
 router.get('/search', searchBooks);
-
 
 module.exports = router;

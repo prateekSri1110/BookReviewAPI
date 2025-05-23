@@ -1,6 +1,9 @@
 const Review = require('../models/review');
 const Book = require('../models/Book');
 
+// API handling logics
+
+// add review to Book
 exports.addReview = async (req, res) => {
     try {
         const bookId = req.params.id;
@@ -29,6 +32,7 @@ exports.addReview = async (req, res) => {
     }
 };
 
+// update review by reviewId & userId
 exports.updateReview = async (req, res) => {
     try {
         const reviewId = req.params.id;
@@ -52,6 +56,7 @@ exports.updateReview = async (req, res) => {
     }
 };
 
+// delete review by reviewId and userId
 exports.deleteReview = async (req, res) => {
     try {
         const reviewId = req.params.id;

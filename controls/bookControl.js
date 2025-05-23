@@ -1,6 +1,7 @@
 const Book = require('../models/Book');
 const Review = require('../models/review');
 
+// API logics to handle books
 exports.addBook = async (req, res) => {
     try {
         const { title, author, genre } = req.body;

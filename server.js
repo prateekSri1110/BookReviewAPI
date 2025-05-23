@@ -10,10 +10,12 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
+// connect MongoDB Atlas Database
 mongoose.connect(process.env.MONGOURI)
     .then(() => console.log("MongoDB connected!"))
     .catch(err => console.log(err));
 
+// API routes 
 app.use('/api', authRoutes);
 app.use('/api', bookRoutes);
 app.use('/api', reviewRoutes);

@@ -2,6 +2,7 @@ const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
+// user authentication logic for login & signup
 exports.signup = async (req, res) => {
     const user = new User(req.body);
     await user.save();
