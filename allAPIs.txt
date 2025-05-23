@@ -1,0 +1,9 @@
+signup - Post - http://localhost:5000/api/signup
+login - Get - http://localhost:5000/api/login, auth required
+addBook - Post - http://localhost:5000/api/signup, auth required
+getBook - Get - http://localhost:5000/api/signup
+getBookById - Get - http://localhost:5000/api/books/:id
+addReview - Post - http://localhost:5000/api/books/:id/reviews, auth required
+updateReview - put - http://localhost:5000/api/reviews/:id, auth required
+deleteReview - Delete - http://localhost:5000/api/reviews/:id, auth required
+search - Get - http://localhost:5000/api/search
