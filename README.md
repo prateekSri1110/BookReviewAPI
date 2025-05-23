@@ -1,4 +1,4 @@
-**﻿# BookReviewAPI**
+****﻿# BookReviewAPI****
 
 # Required tools & technologies
   1. Node.js
@@ -20,11 +20,7 @@
   9. routes setup for books, users & reviews. (routes directory)
   10. API endpoints testing using Postman (allAPIS.txt)
 
-                                  **BOOK REVIEW APIs**
-                                         |
-  ---------------------------------------------------------------------------------
-  |                |           |           |            |            |            |
-server.js      CONTROLS     MODELS      ROUTES      MIDDLEMAN      .env      allAPIs.txt
+![image](https://github.com/user-attachments/assets/18a436e1-3497-45bf-a7e5-c54ee218ae8e)
 
 
 **# To run locally**
